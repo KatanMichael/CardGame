@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
 
 import com.katan.sapirmichael.cardgame.R
@@ -19,9 +20,9 @@ class MainMenuFragment : Fragment() {
 
         view = inflater.inflate(R.layout.mainmenu, null, false)
 
-        val main_inst_btn: Button = view.findViewById(R.id.main_inst_btn)
+        val main_inst_btn: ImageButton = view.findViewById(R.id.main_inst_btn)
 
-        val main_start_btn: Button = view.findViewById(R.id.main_start_btn)
+        val main_start_btn: ImageButton = view.findViewById(R.id.main_start_btn)
 
         main_inst_btn.setOnClickListener()
         {

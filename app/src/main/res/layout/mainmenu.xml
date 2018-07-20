@@ -7,22 +7,25 @@
     >
 
 
-    <Button
+    <ImageButton
         android:id="@+id/main_inst_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:text="הוראות" />
+        android:layout_marginTop="250dp"
+        android:background="@drawable/inst_up"
+         />
 
-    <Button
+    <ImageButton
         android:id="@+id/main_start_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
         android:text="התחלי לשחק"
         android:layout_below="@id/main_inst_btn"
+        android:background="@drawable/play_up"
+
         />
 
 </RelativeLayout>
