@@ -10,6 +10,7 @@ import classes.Card
 import com.katan.sapirmichael.cardgame.R
 
 
+
 class CardsAdapter (val items: Array<Card>, val context: Context) : RecyclerView.Adapter<CardsAdapter.ViewHolder>()
 {
 

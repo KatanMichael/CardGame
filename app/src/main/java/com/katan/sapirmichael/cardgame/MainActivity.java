@@ -25,6 +25,18 @@ public class MainActivity extends AppCompatActivity {
 
         fragmentTransaction.commit();
 
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        FragmentManager manager = getSupportFragmentManager();
+
+        FragmentTransaction fragmentTransaction = manager.beginTransaction();
+
+        fragmentTransaction.replace(R.id.MainFragmentsPlace,new MainMenuFragment());
+
+        fragmentTransaction.commit();
 
     }
 }
