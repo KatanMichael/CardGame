@@ -17,7 +17,7 @@
         android:background="@drawable/inst_up"
          />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/main_start_btn"
         android:layout_width="320dp"
         android:layout_height="160dp"
