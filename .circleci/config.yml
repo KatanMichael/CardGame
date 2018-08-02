@@ -5,4 +5,5 @@ jobs:
       - image: circleci/android:api-27-node8-alpha
     steps:
       - checkout
-      - run: echo "hello world"
+      - run: make test
+      - run: make
