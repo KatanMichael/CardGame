@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/<language>:<version TAG>
+      - image: circleci/android:api-27-node8-alpha
     steps:
       - checkout
       - run: echo "hello world"
